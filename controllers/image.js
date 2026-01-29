@@ -1,7 +1,6 @@
 
-
 const setupClarifai = (imageUrl) => {
-  const PAT = 'f5cea19ed8324f26a4acc1df6b628a4e';
+  const PAT = process.env.PAT;
   const USER_ID = 'clarifai';       
   const APP_ID = 'main';
   // Change these to whatever model and image URL you want to use
